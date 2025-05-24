@@ -1,4 +1,4 @@
-package com.hardik.mvidemo.ui.theme
+package com.hardik.mvidemo.presentation
 
 import com.hardik.mvidemo.base.Reducer
 

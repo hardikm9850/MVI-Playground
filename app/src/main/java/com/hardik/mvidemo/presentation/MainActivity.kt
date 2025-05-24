@@ -1,4 +1,4 @@
-package com.hardik.mvidemo
+package com.hardik.mvidemo.presentation
 
 import android.os.Bundle
 import android.widget.Toast
@@ -20,11 +20,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.hardik.mvidemo.ui.theme.MVIDemoTheme
-import com.hardik.mvidemo.ui.theme.MainReducer
-import com.hardik.mvidemo.ui.theme.MainViewModel
 
 class MainActivity : ComponentActivity() {
     private val viewModel: MainViewModel by viewModels()
